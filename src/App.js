@@ -1,8 +1,9 @@
 import React from 'react';
 import NavBar from './Components/NavBar/NavBar';
-import "./Components/NavBar/NavBar.css"
 import "./App.css"
 import Banner from './Components/Banner/Banner';
+import RowPost from './Components/RowPost/RowPost';
+
 
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
     <div className="App">
      <NavBar/>
      <Banner/>
+     <RowPost/>
     </div>
   );
 }

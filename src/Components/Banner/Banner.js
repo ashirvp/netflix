@@ -7,7 +7,7 @@ function Banner() {
                 <h1 className="title">Movie Name</h1>
                 <div className="banner_buttons">
                     <button className="button">Play</button>
-                    <button className="button">Play</button>
+                    <button className="button">My list</button>
                 </div>
                 <h1 className="discription">In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the</h1>
             </div>
