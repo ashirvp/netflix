@@ -4,12 +4,12 @@ function Banner() {
     return (
         <div className="banner">
             <div className="content">
-                <h1 className="title">Movie Name</h1>
+                <h1 className="title">Money Heist</h1>
                 <div className="banner_buttons">
                     <button className="button">Play</button>
                     <button className="button">My list</button>
                 </div>
-                <h1 className="discription">In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the</h1>
+                <h1 className="discription">Eight thieves take hostages and lock themselves in the Royal Mint of Spain as a criminal mastermind manipulates the police to carry out his plan.</h1>
             </div>
             <div className="fade_bottom"></div>
         </div>
