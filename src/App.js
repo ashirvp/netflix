@@ -11,7 +11,8 @@ function App() {
     <div className="App">
      <NavBar/>
      <Banner/>
-     <RowPost/>
+     <RowPost title="Netfix Originals"/>
+     <RowPost title="Action" isSmall={true}/>
     </div>
   );
 }
