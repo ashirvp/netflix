@@ -3,6 +3,7 @@ import NavBar from './Components/NavBar/NavBar';
 import "./App.css"
 import Banner from './Components/Banner/Banner';
 import RowPost from './Components/RowPost/RowPost';
+import {originals,action} from './urls'
 
 
 
@@ -11,8 +12,8 @@ function App() {
     <div className="App">
      <NavBar/>
      <Banner/>
-     <RowPost title="Netfix Originals"/>
-     <RowPost title="Action" isSmall={true}/>
+     <RowPost url={originals} title="Netfix Originals"/>
+     <RowPost url={action} title="Action" isSmall={true}/>
     </div>
   );
 }
