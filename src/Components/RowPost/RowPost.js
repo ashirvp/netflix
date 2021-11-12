@@ -38,8 +38,12 @@ function RowPost(props) {
                     <img onClick={() => handleMovie(obj.id)} className={props.isSmall ? 'smallPoster' : 'poster'} alt='poster' src={`${imageUrl + obj.backdrop_path}`} />
                 )}
             </div>
+            
             { urlId && <YouTube videoId={urlId.key} opts={opts} />}
         </div>
+        
+        
+        
     )
 }
 

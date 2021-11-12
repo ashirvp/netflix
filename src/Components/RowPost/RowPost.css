@@ -24,3 +24,6 @@
 .poster:hover{
     transform: scale(1.06);
 }
+.smallPoster:hover{
+    transform: scale(1.02);
+}
