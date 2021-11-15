@@ -13,7 +13,7 @@ function App() {
      <NavBar/>
      <Banner/>
      <RowPost url={originals} title="Netfix Originals"/>
-     <RowPost url={treding} title="Trending" isSmall={true}/>
+     <RowPost url={treding} title="Trending Movies" isSmall={true}/>
      <RowPost url={action} title="Action" isSmall={true}/>
      <RowPost url={horror} title="Horror" isSmall={true}/>
      <RowPost url={romance} title="Romance" isSmall={true}/>
